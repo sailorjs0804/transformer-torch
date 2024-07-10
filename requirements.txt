@@ -2,3 +2,6 @@ black
 isort
 pre-commit
 flake8
+torch==2.2.0
+torchvision
+torchaudio
