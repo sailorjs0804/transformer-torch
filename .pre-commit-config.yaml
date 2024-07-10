@@ -18,7 +18,7 @@ repos:
         language_version: python3.12
 
   - repo: https://github.com/pycqa/flake8
-    rev: 3.9.2
+    rev: 7.0.0
     hooks:
       - id: flake8
         # Check for Python syntax errors
@@ -29,7 +29,7 @@ repos:
             "--ignore",
             "F704,F821",
             "--exclude",
-            "jupyter_notebook_config.py,jupyter_server_config.py,prescription_pb2.py,*/notebooks/*.py",
+            "__init__.py",
           ]
 
   - repo: https://github.com/pycqa/isort
