@@ -32,7 +32,7 @@ class MultiHeadAttention(nn.Module):
         out = self.w_concat(out)
 
         # 5. visualize attention map
-        # TODO : we should implement visualization
+        # we should implement visualization
 
         return out
 
